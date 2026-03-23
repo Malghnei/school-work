@@ -2,7 +2,7 @@
 ********************************************
 CS 1026 - Assignment 4 - Air Travel
 Code by: Malik Alghneimin
-Student Number: 251430453
+Student Number: 
 File created: November 26, 2024
 ********************************************
 The program is used to create the "Flight" class, which is used for creating a object foundation that can contain information

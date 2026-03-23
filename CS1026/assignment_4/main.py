@@ -2,7 +2,7 @@
 ********************************************
 CS 1026 - Assignment 4 - Air Travel
 Code by: Malik Alghneimin
-Student Number: 251430453
+Student Number: 
 File created: November 26, 2024
 ********************************************
 The program uses the Flight and Airport classes, created from the imports, in functions that obtain specific values/objects.
