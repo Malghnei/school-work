@@ -1,0 +1,24 @@
+1)	
+1. I could use “echo *” to list the directories in the current directory. The reason it works is because echo is a command that displays the text based on the argument that is passed. Doing echo on a file prints the file name and doing it on a directory prints the contents. 
+2. For ensuring a prompt before a removal of a file or directory, use the “-i” option in rm. For ensuring that a prompt is not shown before a removal of a file or directory, use the “-f” option in rm. When both options are combined, the “-f” option always comes on top and no prompt is shown.
+3. The rename command can utilize substitution patterns for naming multiple files, while mv is able to move and rename a single file or directory.
+4. ELF means “Executable and Linkable Format”. It’s the standard binary format for executables on Unix systems.
+5. “ls -l” command shows the number of bytes in the file, while the “du” command shows the disk usage of the file.
+
+2)	
+1. By using the “-p” option on the mkdir command, the parent directories are automatically made.
+mkdir -p grandparent/parent/child
+2. Quotation marking the name of the directory can allow spaces to the name of the directory
+	mkdir “My Folder”
+	rmdir “My Folder”
+3. By using the “-m” option on the mkdir, you can set the permissions manually upon creation. For dr-x------, its 500.
+	mkdir -m 500 directoryName
+4. To go back to the previous directory, use “cd –“
+5. pushd +5
+
+3)	
+1. The “-v” option on the chmod command.
+2. You would use “--reference=file1” on the chown command on file2.
+3. By using the “-c” option on the stat command, following up with the following string “%A %U %G” on a file to display the permissions, user ownership, and group ownership.
+4. “chmod g+w filename” to allow groups to write data on the file, and “chmod u-w filename” to prevent the user from renaming, moving, and removing the file.
+5. Whatever is omitted from the chmod command, the specified user categories (“u/g/o/a”), their permissions change accordingly. 

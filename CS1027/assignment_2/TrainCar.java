@@ -1,7 +1,7 @@
 /*
 CS 1027 - Assignment 2
 Name: Malik Alghneimin
-Student Number: 251430453
+Student Number: 
 Email: malghnei@uwo.ca
 Created: Febuary 11, 2025
 */
